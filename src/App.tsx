@@ -8,7 +8,6 @@ import { ServicesSection } from './components/ServicesSection';
 import { ProjectGallery } from './components/ProjectGallery';
 import { QuoteEstimator } from './components/QuoteEstimator';
 import { WhyChooseUs } from './components/WhyChooseUs';
-import { Testimonials } from './components/Testimonials';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ProjectModal } from './components/ProjectModal';
@@ -90,9 +89,6 @@ export default function App() {
 
               {/* Why Choose E & N Solution LLC */}
               <WhyChooseUs />
-
-              {/* Verified Client Testimonials */}
-              <Testimonials />
 
               {/* Direct Contact & Inquiry */}
               <ContactSection />

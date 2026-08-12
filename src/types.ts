@@ -52,13 +52,3 @@ export interface QuoteFormData {
   details: string;
   preferredContact: 'phone' | 'whatsapp' | 'email';
 }
-
-export interface Testimonial {
-  id: string;
-  clientName: string;
-  location: string;
-  rating: number;
-  serviceCategory: { es: string; en: string };
-  comment: { es: string; en: string };
-  date: string;
-}

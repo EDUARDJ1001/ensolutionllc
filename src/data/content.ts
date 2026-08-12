@@ -218,13 +218,6 @@ export const uiTranslations = {
       ]
     },
 
-    // Testimonials
-    testimonials: {
-      badge: "Opiniones de Clientes",
-      title: "Lo que Dicen Nuestros Clientes",
-      subtitle: "La satisfacción de nuestros clientes residenciales y comerciales respalda la calidad de cada proyecto que realizamos."
-    },
-
     // Contact Section
     contact: {
       badge: "Atención Directa",
@@ -475,13 +468,6 @@ export const uiTranslations = {
           description: "We treat your property with respect, maintaining clean work areas throughout construction and providing full debris cleanup."
         }
       ]
-    },
-
-    // Testimonials
-    testimonials: {
-      badge: "Client Reviews",
-      title: "What Our Clients Say",
-      subtitle: "Satisfaction from homeowners and commercial property managers reflects the quality of every project we deliver."
     },
 
     // Contact Section
