@@ -1,0 +1,6 @@
+{
+  "name": "E & N Solution LLC",
+  "description": "Sitio web profesional y bilingüe para E & N Solution LLC - Especialistas en servicios de concreto, remodelación interior, carpintería y pintura profesional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
