@@ -98,8 +98,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
             onClick={() => scrollToSection('hero')}
             className="flex items-center gap-3 text-left group"
           >
-            <div className="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-amber-400 font-black text-xl shadow-inner border border-slate-700 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
-              E&N
+            <div className="w-10 h-10 rounded-lg overflow-hidden bg-white border border-slate-200 shadow-sm shrink-0 group-hover:border-amber-500 transition-all">
+              <img
+                src="/logo.ico"
+                alt={t.companyName}
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <span className="block text-slate-900 font-extrabold text-lg sm:text-xl tracking-tight leading-none group-hover:text-amber-600 transition-colors">

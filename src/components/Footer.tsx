@@ -31,8 +31,12 @@ export const Footer: React.FC = () => {
           {/* Brand Info Column */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-amber-500 text-slate-950 font-black flex items-center justify-center text-lg">
-                E&N
+              <div className="w-9 h-9 rounded-lg overflow-hidden bg-white shrink-0">
+                <img
+                  src="/logo.ico"
+                  alt={t.companyName}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <span className="text-white font-extrabold text-lg block leading-none">
