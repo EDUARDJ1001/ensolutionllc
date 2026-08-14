@@ -95,14 +95,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onExploreGallery }) => 
               </div>
 
               {/* Stats Grid */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 <div className="bg-slate-900/60 p-3.5 rounded-lg border border-slate-700/50">
                   <span className="text-2xl font-black text-amber-400 block leading-none">100%</span>
                   <span className="text-xs text-slate-300 font-medium mt-1 block">{t.stats.satisfaction}</span>
-                </div>
-                <div className="bg-slate-900/60 p-3.5 rounded-lg border border-slate-700/50">
-                  <span className="text-2xl font-black text-amber-400 block leading-none">LLC</span>
-                  <span className="text-xs text-slate-300 font-medium mt-1 block">{t.stats.licensing}</span>
                 </div>
               </div>
 

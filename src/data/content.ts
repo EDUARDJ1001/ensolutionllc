@@ -5,7 +5,6 @@ export const uiTranslations = {
     phone: "1 (667) 304-9332",
     email: "contacto@ensolutionllc.com",
     address: "Área Metropolitana y Alrededores",
-    license: "Licencia & Seguro Comercial Garantizados",
     
     // Navigation
     nav: {
@@ -30,14 +29,12 @@ export const uiTranslations = {
       stats: {
         experience: "Años de Experiencia",
         projects: "Proyectos Completados",
-        satisfaction: "Garantía de Satisfacción",
-        licensing: "Licencia y Seguro Activo"
+        satisfaction: "Garantía de Satisfacción"
       },
       badges: [
         "Estimaciones Presenciales Gratis",
         "Materiales de Alta Durabilidad",
-        "Garantía por Escrito",
-        "Licencia y Seguro Completo"
+        "Garantía por Escrito"
       ]
     },
 
@@ -246,7 +243,7 @@ export const uiTranslations = {
       aboutCompany: "Empresa comprometida con la excelencia estructural en trabajos de concreto y servicios complementarios de remodelación interior, carpintería y pintura profesional.",
       quickLinks: "Enlaces Rápidos",
       servicesList: "Especialidades",
-      copyright: "Todos los derechos reservados. Registrada y asegurada.",
+      copyright: "Todos los derechos reservados.",
       languageSwitch: "Idioma / Language"
     }
   },
@@ -257,7 +254,6 @@ export const uiTranslations = {
     phone: "1 (667) 304-9332",
     email: "contact@ensolutionllc.com",
     address: "Metropolitan Area & Surrounding Cities",
-    license: "Fully Licensed & Commercially Insured",
 
     // Navigation
     nav: {
@@ -282,14 +278,12 @@ export const uiTranslations = {
       stats: {
         experience: "Years of Experience",
         projects: "Projects Completed",
-        satisfaction: "Satisfaction Guarantee",
-        licensing: "Active License & Insurance"
+        satisfaction: "Satisfaction Guarantee"
       },
       badges: [
         "Free On-Site Estimates",
         "High-Durability Materials",
-        "Written Warranty Included",
-        "Fully Licensed & Insured"
+        "Written Warranty Included"
       ]
     },
 
@@ -457,7 +451,7 @@ export const uiTranslations = {
         },
         {
           title: "Turnkey Integral Solutions",
-          description: "Save time and hassle by hiring one dependable licensed general contractor for concrete, carpentry, painting, and interior remodeling."
+          description: "Save time and hassle by hiring one dependable general contractor for concrete, carpentry, painting, and interior remodeling."
         },
         {
           title: "Transparent & Detailed Pricing",
@@ -498,7 +492,7 @@ export const uiTranslations = {
       aboutCompany: "A company dedicated to structural excellence in concrete construction alongside comprehensive interior remodeling, carpentry, and professional painting.",
       quickLinks: "Quick Links",
       servicesList: "Our Specialties",
-      copyright: "All rights reserved. Fully licensed and insured.",
+      copyright: "All rights reserved.",
       languageSwitch: "Language / Idioma"
     }
   }

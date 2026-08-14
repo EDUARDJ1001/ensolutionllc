@@ -5,7 +5,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  ShieldCheck,
   Globe,
   Menu,
   X,
@@ -72,11 +71,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-1.5 text-amber-400 font-medium">
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-500" />
-              <span>{t.license}</span>
-            </div>
-
             {/* Language Switcher */}
             <button
               onClick={toggleLanguage}

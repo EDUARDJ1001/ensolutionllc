@@ -5,7 +5,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  ShieldCheck,
   Globe,
   Hammer,
   ArrowUp
@@ -48,11 +47,6 @@ export const Footer: React.FC = () => {
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
               {t.footer.aboutCompany}
             </p>
-
-            <div className="flex items-center gap-2 text-amber-400 font-medium pt-1">
-              <ShieldCheck className="w-4 h-4 text-amber-500" />
-              <span>{t.license}</span>
-            </div>
           </div>
 
           {/* Quick Links */}
